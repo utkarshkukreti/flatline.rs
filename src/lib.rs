@@ -1,3 +1,1 @@
-#[test]
-fn it_works() {
-}
+pub struct Flatline;
