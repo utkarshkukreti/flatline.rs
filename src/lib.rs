@@ -1,5 +1,7 @@
 use std::io;
 
+mod line;
+
 pub struct Flatline<R: io::Read, W: io::Write> {
     reader: R,
     writer: W
